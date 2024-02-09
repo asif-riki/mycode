@@ -5,6 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 # test Git
+#test 2 git
 def get_weather_data(api_key, city_name):
     base_url = 'http://api.openweathermap.org/data/2.5/forecast'
     params = {
